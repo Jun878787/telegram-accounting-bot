@@ -1,0 +1,58 @@
+{
+  "deposits": [
+    {
+      "time": "22:48",
+      "amount": 1000000.0
+    },
+    {
+      "time": "22:48",
+      "amount": 2450000.0
+    }
+  ],
+  "withdrawals": [
+    {
+      "time": "22:48",
+      "amount": -3450000.0
+    }
+  ],
+  "operators": [],
+  "rates": {
+    "deposit": 33.25,
+    "withdrawal": 33.25
+  },
+  "warnings": {},
+  "broadcast_mode": false,
+  "welcome_message": "{FULLNAME}　👀他要跑去哪裡 ？不問一下嗎",
+  "welcome_message_enabled": true,
+  "farewell_message": "👋 {SURNAME} 已離開群組，期待再相會！",
+  "farewell_message_enabled": true,
+  "scheduled_messages": {
+    "enabled": true,
+    "messages": {
+      "1": {
+        "message": "",
+        "interval": 3600,
+        "repeat_count": 0,
+        "weekdays": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "time_ranges": [
+          [
+            "00:00",
+            "23:59"
+          ]
+        ],
+        "pin": true,
+        "last_sent": null,
+        "enabled": false
+      }
+    }
+  },
+  "scheduled_message_enabled": true
+}

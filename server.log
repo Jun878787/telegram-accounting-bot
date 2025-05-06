@@ -1,0 +1,42 @@
+2025-05-06 18:00:59,089 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:00:59,350 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.45:5000
+2025-05-06 18:00:59,351 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 18:00:59,374 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-06 18:00:59,865 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:00:59,900 - werkzeug - WARNING -  * Debugger is active!
+2025-05-06 18:00:59,905 - werkzeug - INFO -  * Debugger PIN: 721-137-021
+2025-05-06 18:02:19,105 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:02:19,141 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.45:5000
+2025-05-06 18:02:19,141 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 18:02:19,154 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-06 18:02:19,492 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:02:19,512 - werkzeug - WARNING -  * Debugger is active!
+2025-05-06 18:02:19,516 - werkzeug - INFO -  * Debugger PIN: 721-137-021
+2025-05-06 18:03:14,235 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:03:14,272 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.45:5000
+2025-05-06 18:03:14,272 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 18:03:14,285 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-06 18:03:14,624 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:03:14,644 - werkzeug - WARNING -  * Debugger is active!
+2025-05-06 18:03:14,649 - werkzeug - INFO -  * Debugger PIN: 721-137-021
+2025-05-06 18:04:55,245 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 18:04:55,315 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 18:04:55,322 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-06 18:05:27,974 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:27] "GET / HTTP/1.1" 200 -
+2025-05-06 18:05:30,071 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:30] "GET /bot_status HTTP/1.1" 200 -
+2025-05-06 18:05:30,085 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-06 18:05:30,470 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:30] "GET /get_logs HTTP/1.1" 200 -
+2025-05-06 18:05:37,497 - __main__ - INFO - 嘗試啟動機器人...
+2025-05-06 18:05:37,548 - __main__ - INFO - 機器人已啟動，PID: 14152
+2025-05-06 18:05:37,549 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:37] "POST /start_bot HTTP/1.1" 200 -
+2025-05-06 18:05:37,619 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:37] "GET /get_logs HTTP/1.1" 200 -
