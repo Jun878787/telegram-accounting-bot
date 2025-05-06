@@ -238,8 +238,10 @@ def get_logs():
 if __name__ == '__main__':
     logger.info("伺服器啟動中...")
     try:
-        # 使用非調試模式啟動以避免線程問題
-        app.run(host='127.0.0.1', port=5000, debug=False)
+        # 從環境變數獲取端口，或使用預設值 5000
+        port = int(os.environ.get("PORT", 5000))
+        # 監聽所有介面 (0.0.0.0)，而不僅僅是本地回環介面
+        app.run(host='0.0.0.0', port=port, debug=False)
     except Exception as e:
         logger.error(f"伺服器啟動失敗: {str(e)}")
         print(f"伺服器啟動失敗: {str(e)}") 

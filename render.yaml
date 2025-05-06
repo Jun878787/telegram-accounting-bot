@@ -1,0 +1,20 @@
+services:
+  # Web 服務 - 管理界面
+  - type: web
+    name: telegram-bot-server
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server:app
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "true"
+    
+  # 背景工作服務 - 機器人
+  - type: worker
+    name: telegram-bot-worker
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "true" 

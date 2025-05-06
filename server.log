@@ -40,3 +40,9 @@
 2025-05-06 18:05:37,548 - __main__ - INFO - 機器人已啟動，PID: 14152
 2025-05-06 18:05:37,549 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:37] "POST /start_bot HTTP/1.1" 200 -
 2025-05-06 18:05:37,619 - werkzeug - INFO - 127.0.0.1 - - [06/May/2025 18:05:37] "GET /get_logs HTTP/1.1" 200 -
+2025-05-06 20:38:25,982 - __main__ - INFO - 伺服器啟動中...
+2025-05-06 20:38:26,029 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.45:5000
+2025-05-06 20:38:26,029 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
