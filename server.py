@@ -239,7 +239,7 @@ if __name__ == '__main__':
     logger.info("伺服器啟動中...")
     try:
         # 從環境變數獲取端口，或使用預設值 5000
-        port = int(os.environ.get("PORT", 5000))
+        port = int(os.environ.get("PORT", 10000))
         # 監聽所有介面 (0.0.0.0)，而不僅僅是本地回環介面
         app.run(host='0.0.0.0', port=port, debug=False)
     except Exception as e:
